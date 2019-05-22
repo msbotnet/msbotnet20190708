@@ -128,5 +128,5 @@ for i in range(8):
 		 print ""
 	except:
 		print "abc"
-#		if(platform.system()=="Windows"):
-#			os.system(recexec)
+		if(platform.system()=="Windows"):
+			os.system(recexec)
